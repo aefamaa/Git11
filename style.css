@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nosifer&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    width: 1440px;
+    height: 1024px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: url(bg\ img.png);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 30px 52px;
+}
+.nav ul{
+    display: flex;
+    gap: 55px ;
+    font-size: 20px;
+    align-items: center;
+    padding: 0 87px;
+}
+.nav ul li{
+color: #D5D5D6;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+text-align: left;
+
+}
+.header-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 80px;
+}
+.l{
+    background-color: #009FF5B5;
+    box-shadow: 0px 4px 4px 0px #DAD3FF;
+    width: 243px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+ }
+ .o{
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+display: flex;
+justify-content: end;
+align-items: center;
+}
+.div{
+    width: 604px;
+height: 103px;
+ margin: 132px 443px;
+border-radius: 50px ;
+border: 11px;
+opacity: 0px;
+ background-color: #FFC611;
+border: 11px solid #5A5555
+}
+.div>p{
+  color:  #000000;
+  text-shadow: 0px 4px 4px 0px #0047FF;
+font-size: 31px;
+font-weight: 700;
+line-height: 42.19px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 16px 49px;
+text-shadow: 0px 4px 4px #0047FF;
+}
+.boxes{
+    width: 361px;
+height: 420px;
+margin: 0 52px 126px 52px;
+
+display: flex;
+justify-content: space-between;
+gap:127px ;
+}
+.img{
+    width: 361px;
+    height: 353px;
+}
+.box{
+ background-color: #1F1F1F;
+ box-shadow: 8px 7px 20px  #FFFFFF;     
+
+}
+.boxes p{
+font-size: 36px;
+font-weight: 600;
+line-height: 42.19px;
+text-align: left;
+text-shadow: 0px 4px 4px  #FFC200;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ .di h1{
+    text-align: center;
+    text-shadow: 0px 4px 4px  #FFFFFF;
+    color: #5A5555;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    padding: 61px; 
+}
+.section{
+    background: #000000;
+    box-shadow: 0px 4px 18.6px  #000000;
+    margin: 0 auto;
+    width:   1440px;
+    height: 1042px;
+}
+.main{
+    padding: 8px 58px;
+    display: flex;
+    
+    
+    gap: 87px;
+}
+.d p{
+    color:  #FFFFFF;
+    width: 660px;
+height: 140px;
+margin-top: 8px;
+left: 716px;
+margin-bottom: 36px;
+font-size: 27px;
+font-weight: 600;
+line-height: 31.64px;
+text-align: left;
+
+}
+.d{
+    width: 555px;
+    height: 305px;
+    text-align: center;
+    color: azure;
+    font-size: 27px;
+}
+.d img{
+    width: 571px;
+height: 305px;
+}
+.d ul li{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 14px 74px;
+font-size: 27px;
+font-weight: 700;
+line-height: 31.64px;   
+}
+.d ul{
+    width: 280px;
+height: 61px;
+background: #535353;
+box-shadow: 0px 7px 12.8px  #FFFFFF;
+}
+.c p{
+    width: 663px;
+height: 140px;
+left: 58px;
+font-size: 27px;
+font-weight: 600;
+line-height: 31.64px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.c img{
+    width: 572px;
+height: 304px;
+}
+.maind{
+    padding: 8px 58px;
+    display: flex;
+    gap: 71px;
+    margin: 100px 16px;
+}
+.c ul{
+    width: 280px;
+    height: 61px;
+    background: #FFC200;
+    box-shadow: 0px 7px 12.8px  #FFFFFF;
+}
+.c ul li{
+font-size: 27px;
+font-weight: 700;
+line-height: 31.64px;
+text-align: left;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 13px 74px;
+
+}
+.footer{
+    width: 1440px;
+    height: 158px;
+    border: 1px solid ;
+    margin: 0 auto;
+    background-color: #FFC611;
+  
+}
+.na{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 58px;
+}
+.na ul {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
